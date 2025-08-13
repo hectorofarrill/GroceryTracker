@@ -1,2 +1,13 @@
 # GroceryTracker
-Grocery Tracker is a C++ console application that processes daily sales records to determine the frequency of purchased items.
+Summarize the project and what problem it was solving.
+Grocery Tracker is a C++ console application that processes daily sales records to determine the frequency of purchased items. The problem it solves is helping a given grocery store optimize their count of current inventory at the store and future needed items by providing an accurate frequency items sold. It reads data from a text file and stores the item count in a map, creates a backup file, and provides and easy to interact and read menu to search for specific items and display the frequencies and visualize data as a histogram.
+What did you do particularly well?
+In this particular project I had an easy time writing the main functions and desinging the layout of the user menu. The new concepts like the map, and using, reading and creating a new file still need more practice.
+Where could you enhance your code? How would these improvements make your code more efficient, secure, and so on?
+I think I could add a better item search for cases where the user inputs the correct item name but in all lowercase to ensure better matching. Also adding more strict file formating for input files to prevent any craches or glitches from unexpected data. Finally adding some method to update existing backup files instead of constantlly creating new ones.
+Which pieces of the code did you find most challenging to write, and how did you overcome this? What tools or resources are you adding to your support network?
+I found the concept of the map a bit challenging at first but after looking for some outside resources I was able to overcome this challenge. First I went to the C++ documentation and some Youtube videos as a guide, and talked to some family members that have experince on programmming.
+What skills from this project will be particularly transferable to other projects or course work?
+I think that most of this project can be used in any future projects I may do, fromm the usage of simple methods to maps to compalie and analyze big chunks of data, and creating simple user interfaces to check for any errors or posible mistekes made during development.
+How did you make this program maintainable, readable, and adaptable?
+This programs has clear naming convention to help any future readers understand what each variable and method are and do. Also, I used comments in some parts that need more explanation to make it more clear what their function is. The proper use of private and public variables and methods to expose only the necessary information. Finally the desing allows for an easy addition or removal of manu options or outputs with minimal modifications needed to the base code.
